@@ -297,6 +297,10 @@ into a :doc:`monochromatic light </components/light/monochromatic>`.
 If you additionally want the buttons to control the relays, look at `the complete Sonoff T1 UK 3 Gang
 with automation example <https://github.com/esphome/esphome-docs/blob/current/devices/sonoff_t1_uk_3gang_v1.1.yaml>`__.
 
+if you want to restore state after power outage just add this command in the fifth line.
+
+esp8266_restore_from_flash: true
+
 Step 6: Finishing Up
 --------------------
 
